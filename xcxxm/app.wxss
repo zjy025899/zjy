@@ -1,0 +1,9 @@
+/**app.wxss**/
+/* 引入iconfont图标 */
+@import "./styles/iconfont.wxss";
+/* 清除默认样式 */
+page,view,text,swiper,swiper-item,image,navigator{padding: 0;margin: 0;box-sizing: border-box}
+/* 定义同主题颜色   用less 存在变量 */
+/* 统一字体大小   1px=2rpx  14px=28rpx */
+page{--themeColor:#eb4450;font-size: 28rpx;}
+image{width: 100%;}
